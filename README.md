@@ -4,7 +4,7 @@
 
 I study how to stream data from server recently. SSE is good, I love it, but when it comes to performance, it takes up 1 tcp connection constantly out of the limited 6 connections using HTTP/1.1.
 
-For streaming of large data, we take advantage of the fact that HTTP/2 has no limitation on numer of TCP connections due to its ability to multiplex multiple requests into a single pipeline (connection).
+For streaming of large data, we take advantage of the fact that HTTP/2 has no limitation on number of TCP connections due to its ability to multiplex multiple requests into a single pipeline (connection).
 
 ## How to Stream?
 
